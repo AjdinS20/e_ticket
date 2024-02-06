@@ -1,0 +1,36 @@
+{
+    "cmake.configureOnOpen": true,
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+        "editor.formatOnSave": true,
+    },    
+    "highlight.decorations": { "rangeBehavior": 3 }, // Default decorations from which all others inherit from
+    "highlight.regexFlags": "gi", // Default flags used when building the regexes
+    "highlight.regexes": {
+        "(\"@_[A-Z_]+\": {},)": {
+            "filterFileRegex": ".*\\.arb",
+            "decorations": [
+                {
+                "overviewRulerColor": "#d19a66",
+                "backgroundColor": "#d19a66",
+                "color": "#282c34",
+                "fontWeight": "bold"
+                }
+            ]
+        }
+    },
+    "highlight.maxMatches": 250, // Maximum number of matches to decorate per regex, in order not to crash the app with accidental cathastropic regexes
+    "maptz.regionfolder": {
+        "[ahk]": {                                      //Language selector
+            "foldEnd": "; #endregion",                    //Text inserted at the end of the fold
+            "foldEndRegex": ";[\\s]*#endregion",          //Regex used to find fold end text.
+            "foldStart": "; #region [NAME]",              //Text inserted at the start of the fold.
+                                                        //Use the `[NAME]` placeholder to indicate
+                                                        //where the cursor should be placed after
+                                                        //insertion
+            "foldStartRegex": ";[\\s]*#region[\\s]*(.*)",  ////Regex used to find fold start text.
+            "disableFolding": false //Turn off #region folding for this language
+      }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

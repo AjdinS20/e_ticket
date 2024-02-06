@@ -1,0 +1,20 @@
+{
+  "@_BASE": {},
+  "helloWorld": "Zdravo Svijete!",
+  "required": "Polje je obavezno", 
+  
+  "@_NAVIGATION": {},
+  "feaure1": "This is Feature 1",
+  "feaure2": "This is Feature 2",
+  "feaure3": "This is Feature 3",
+
+  "@_LOGIN": {}, 
+  "login": "Prijavi se",
+  "logout": "Odjavi se",
+  "login_failed": "Prijava neuspješna",
+  "username": "Korisničko ime",
+  "password": "Lozinka",
+
+    "@ATTENDANCE": {}, 
+  "atendance": "Prisustvo"
+}

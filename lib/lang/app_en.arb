@@ -1,0 +1,23 @@
+{
+  "@_BASE": {},
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "required": "This field is required", 
+  
+  "@_NAVIGATION": {},
+  "feaure1": "This is Feature 1",
+  "feaure2": "This is Feature 2",
+  "feaure3": "This is Feature 3",
+
+  "@_LOGIN": {}, 
+  "login": "Log in",
+  "logout": "Log out",
+  "login_failed": "Login failed",
+  "username": "Username",
+  "password": "Password",
+
+    "@ATENDANCE": {}, 
+  "atendance": "Atendance"
+}
